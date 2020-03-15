@@ -55,14 +55,16 @@ body {
 .seat:nth-last-of-type(2) {
 	margin-left: 18px;
 }
+
 .seat:not(.occupied):hover {
-	cursor: default;
+	cursor: pointer;
 	transform: scale(1.2);
 }
-.snowcase.seat:not(.occupied):hover {
+.showcase .seat:not(.occupied):hover {
 	cursor: default;
-	transform: scale(1.2);
+	transform: scale(1);
 }
+
 .showcase {
 	background: rgba(0, 0, 0, 0.1);
 	padding: 5px 10px;
